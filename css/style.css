@@ -1583,11 +1583,6 @@ div.card.show div.flap2 {
     padding: 5%;
 }
 
-body{
-    margin: 0;
-  }
-  *:before, *:after,
-  *{box-sizing: border-box}
   .form{
     padding: 50px;
     max-width: 1000px;
