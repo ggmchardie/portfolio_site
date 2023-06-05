@@ -1,0 +1,347 @@
+<!--Balsamiq Page-->
+<!--Stock photo of code. Description of experience with some select skills-->
+<!--Experience of each skill is displayed with a percentage of current level of experience-->
+<!--Georgia (Georgie) McHardie 09/04/2023-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Site title -->
+	<title>Georgie McHardie</title>
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="print" href="css/print.css" />
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b0b3e1c834.js" crossorigin="anonymous"></script>
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!--Javascript-->
+    <script src="javascript\nav.js"></script>
+    <script src="javascript\cards.js"></script>
+    <script src="javascript\backToTopButton.js"></script>
+
+    <!--CSS-->
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+    </style>
+
+</head>
+
+<body>   
+
+<!--Navigation-->
+<header>
+    <div id="logo">
+      <a href="index.html"><img class="logo" src="images\animatedLogo.gif" alt="Logo" /></a>
+    </div>
+</header>
+  
+<nav id="mainnav" class="group">
+  <div id="menu">&#x2261; Menu</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gmchardie_A4_about.html">About</a></li>
+    <li><a href="gmchardie_A4_resume.html">Resume</a></li>
+    <li><a href="gmchardie_A4_web_skills.html">Webskills</a></li>
+    <li><a href="gmchardie_A4_projects.html">Projects</a></li>
+    <li><a href="gmchardie_A4_contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+    <div class="content">    
+
+        <!--Aside-->
+        <aside style="height: 1625px">
+        <button onclick="history.back()">Go Back</button>
+        
+        <!--Photo-->
+          <div class="photo">
+            <img src="images\LibU\Rails_logo.png" class="photo" alt="Rails Logo"/>
+          </div>
+
+        <!--Description-->
+          <section>
+              <h3 class="skill_title">Description</h3>
+                    <p>
+                    <div class="skill_desc">
+                        I worked on LibU as part of a small team while completing my Diploma.
+                        LibU is a Ruby on Rails web app where students and teachers have access to and be able to 
+                        easily find academic materials, on a wide range of subjects, without infringing on 
+                        copyright laws. 
+                    </div>
+                    </p>
+
+                <!--Github Link-->
+                <h3 class="title">Click below to view on Github</h3>
+                <div class="ans">
+                <a href="https://github.com/livelifedev/team-cool" target="_blank"><img src="images\Github_logo.png" alt="Github Logo" class="Github_logo"/></a>
+                </div>
+          </section>
+        </aside>
+    
+        <!--Main-->
+        <div class="main" style="height: 1625px;">
+
+            <!--Headings-->
+            <div class="skill_heading">
+            <h1>LibU</h1>
+            <br>
+            <h2 class="skill_subtitle">Ruby on Rails</h2>
+            </div>        
+            
+            <!--Photo Cards-->
+            <div class="cards">
+
+              <!--Card 1-->
+              <div class="card">
+                <div class="card__image-holder">
+                  <img class="card__image" src="images\LibU\Libu_logo.png" alt="Libu Logo" />
+                </div>
+                <div class="card-title">
+                  <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                  </a>
+                  <h2>
+                      Purpose
+                  </h2>
+                </div>
+                <div class="card-flap flap1">
+                  <div class="card-description">
+                  The goal of LibU is to provide a platform for students and teachers to upload, 
+                  share and download academic materials created by their peers. This allows for materials 
+                  to be covered under Creative Commons licensing and can be distributed and shared freely.
+                  In addition, LIBU is to become a community where students can share and discuss ideas 
+                  with their peers and/or educators. The interface should make it easier for our users 
+                  to locate relevant information by being intuitive, easy to navigate and grouping materials 
+                  by subject.
+                  </div>
+                  <div class="card-flap flap2">
+                    <div class="card-actions">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <!--Card 2-->
+              <div class="card">
+                <div class="card__image-holder">
+                  <img class="card__image" src="images\LibU\homepage_view.png" alt="Home Page" />
+                </div>
+                <div class="card-title">
+                  <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                  </a>
+                  <h2>
+                      Home Page
+                  </h2>
+                </div>
+                <div class="card-flap flap1">
+                  <div class="card-description">
+                    The home page welcomes users to the site.
+                  </div>
+                  <div class="card-flap flap2">
+                    <div class="card-actions">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Card 3-->
+              <div class="card">
+                <div class="card__image-holder">
+                  <img class="card__image" src="images\LibU\homepage2.png" alt="Home 2" />
+                </div>
+                <div class="card-title">
+                  <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                  </a>
+                  <h2>
+                      Home Page 2
+                  </h2>
+                </div>
+                <div class="card-flap flap1">
+                  <div class="card-description">
+                    The second home page can only be viewed by the user once they are logged in.
+                    Popular subject categories are displayed to the user.
+                  </div>
+                  <div class="card-flap flap2">
+                    <div class="card-actions">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Card 4-->
+              <div class="card">
+                <div class="card__image-holder">
+                  <img class="card__image" src="images\LibU\search.png" alt="Search" />
+                </div>
+                <div class="card-title">
+                  <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                  </a>
+                  <h2>
+                      Search
+                  </h2>
+                </div>
+                <div class="card-flap flap1">
+                  <div class="card-description">
+                    The search function allows users to search for academic material using titles, authors or subjects.
+                  </div>
+                  <div class="card-flap flap2">
+                    <div class="card-actions">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Card 5-->
+              <div class="card">
+                <div class="card__image-holder">
+                  <img class="card__image" src="images\LibU\subjects.png" alt="Subjects" />
+                </div>
+                <div class="card-title">
+                  <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                  </a>
+                  <h2>
+                      Subjects
+                  </h2>
+                </div>
+                <div class="card-flap flap1">
+                  <div class="card-description">
+                    The subjects page displays different subject categories to the user. 
+                    Academic material can be browsed via subject categories.
+                  </div>
+                  <div class="card-flap flap2">
+                    <div class="card-actions">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Card 6-->
+              <div class="card">
+                <div class="card__image-holder">
+                  <img class="card__image" src="images\LibU\upload_create.png" alt="Upload" />
+                </div>
+                <div class="card-title">
+                  <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                  </a>
+                  <h2>
+                      Upload
+                  </h2>
+                </div>
+                <div class="card-flap flap1">
+                  <div class="card-description">
+                    The upload page allows users to upload their personal academic material to the database.
+                  </div>
+                  <div class="card-flap flap2">
+                    <div class="card-actions">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Card 7-->
+              <div class="card">
+                <div class="card__image-holder">
+                  <img class="card__image" src="images\LibU\user_profile.png" alt="User Profile" />
+                </div>
+                <div class="card-title">
+                  <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                  </a>
+                  <h2>
+                      User Profile
+                  </h2>
+                </div>
+                <div class="card-flap flap1">
+                  <div class="card-description">
+                    The user profile allows users to view and edit their personal details and view saved academic material.
+                  </div>
+                  <div class="card-flap flap2">
+                    <div class="card-actions">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Back to top button-->
+            <div>
+              <button onclick="topFunction()" id="myBtn" title="Go to top" class="GTT">Top</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+                
+              
+              
+              
+              
+
+
+<!-- Footer-->
+<footer class="footer">
+    <div class="contact">
+        <div id="contact_details">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href="tel:0487154084" target="_blank">0487154084</a></p>
+            </div>
+
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href = "ggmchardie@gmail.com" target="_blank">ggmchardie@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-globe"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href="https://goo.gl/maps/EExeTzQRTRvJozPv8" target="_blank">Carwoola</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class ="copyright">
+        <div>
+        <p>Copyright © 2023 Georgia McHardie</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

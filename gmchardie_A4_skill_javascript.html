@@ -1,0 +1,271 @@
+<!--Balsamiq Page-->
+<!--Stock photo of code. Description of experience with some select skills-->
+<!--Experience of each skill is displayed with a percentage of current level of experience-->
+<!--Georgia (Georgie) McHardie 09/04/2023-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Site title -->
+	<title>Georgie McHardie</title>
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="print" href="css/print.css" />
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b0b3e1c834.js" crossorigin="anonymous"></script>
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!--Javascript-->
+    <script src="javascript\onLoadPopup.js"></script>
+    <script src="javascript\nav.js"></script>
+    <script src="javascript\backToTopButton.js"></script>
+
+</head>
+
+<body>   
+
+<!--Navigation-->
+<header>
+    <div id="logo">
+      <a href="index.html"><img class="logo" src="images\animatedLogo.gif" alt="Logo" /></a>
+    </div>
+</header>
+  
+<nav id="mainnav" class="group">
+  <div id="menu">&#x2261; Menu</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gmchardie_A4_about.html">About</a></li>
+    <li><a href="gmchardie_A4_resume.html">Resume</a></li>
+    <li><a href="gmchardie_A4_web_skills.html">Webskills</a></li>
+    <li><a href="gmchardie_A4_projects.html">Projects</a></li>
+    <li><a href="gmchardie_A4_contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!--Pop Up-->
+<div class='popup-onload'>
+  <div class='cnt223'>
+    <p style="text-align: center; margin-top: 5%;">
+      Welcome to Zephyr Motors - Newsletter Signup
+      <br/>
+      <br/>
+      <a href='' class='close' style="text-align: center;">Close</a>
+    </p>
+  </div>
+</div>
+
+<div class="content">    
+
+  <!--Aside-->
+  <aside style="height: 1459px;">
+  <button onclick="history.back()">Go Back</button>
+  
+  <!--Photo-->
+    <div class="photo">
+      <img src="images\ZephyrMotors_logo.jpg" class="photo" alt="Zephyr Motors Logo"/>
+    </div>
+
+  <!--Description-->
+    <section>
+        <h3 class="skill_title">About Us</h3>
+              <p>
+              <div class="skill_desc">
+                Zephyr Motors is an innovative and forward-thinking electric car company that is 
+                revolutionizing the automotive industry. With a strong commitment to sustainability and 
+                cutting-edge technology, Zephyr Motors is dedicated to designing and manufacturing 
+                high-performance electric vehicles (EVs) that offer an exceptional driving experience while 
+                reducing the carbon footprint.
+                <br>
+                <br>
+                At the core of Zephyr Motors' philosophy is the belief that electric vehicles can be both 
+                environmentally friendly and thrilling to drive. Their team of talented engineers and designers 
+                work tirelessly to develop EVs that not only prioritize efficiency but also deliver impressive acceleration, 
+                handling, and range.
+              </div>
+              </p>
+
+    </section>
+  </aside>
+
+  <!--Main-->
+  <div class="main" style="height: 1459px">
+
+    <!--Headings-->
+    <div class="skill_heading">
+      <h1>Zephyr Motors</h1>
+      <br>
+      <h2 class="skill_subtitle">Sign up for our e-newsletter!</h2>
+    </div>   
+
+  <!--Form-->
+  <div class ="form_container">
+    <form action="https://formspree.io/f/xgebjkna" class="form" id="form" method="POST">
+      <div class="float-right">
+        <div class="input-holder">
+
+          <!--First Name-->
+          <label for="fname" class="form_title">First Name</label>
+          <input type="text" name="fname" placeholder="Enter your first name here..." class="form-control" data-name="name" maxlength="60">
+          <span class="err-txt">Please enter your first name.</span>
+        </div>
+
+        <!--Last Name-->
+        <div class="input-holder">
+          <label for="sname" class="form_title">Last Name</label>
+          <input type="text" name="sname" placeholder="Enter your last name here..." class="form-control" data-name="name" maxlength="60">
+          <span class="err-txt">Please enter your last name.</span>
+        </div>
+
+        <!--Email-->
+        <div class="input-holder">
+          <label for="email" class="form_title">Email</label>
+          <input type="email" name="email" placeholder="Enter your email here..." class="form-control" maxlength="60">
+          <span class="err-txt">Please enter your email.</span>
+        </div>
+
+        <!--Ages-->
+        <div class="input-holder radiocheck">
+          <label for="radio" class="form_title">Age</label>
+          <br>
+          <div class="checkbox_container">
+            <div class="col-1">
+              <input type="radio" name="radio" id="radio1" class="form-control" value="15-25">
+              <label for="radio1">15-25</label>
+              <br>
+              <input type="radio" name="radio" id="radio2" class="form-control" value="26-35">
+              <label for="radio2">26-35</label>
+              <br>
+              <input type="radio" name="radio" id="radio3" class="form-control" value="36-45">
+              <label for="radio2">36-45</label>
+            </div>
+            
+            <div class="col-2">
+              <input type="radio" name="radio" id="radio4" class="form-control" value="46-55">
+              <label for="radio2">46-55</label>
+              <br>
+              <input type="radio" name="radio" id="radio5" class="form-control" value="55+">
+              <label for="radio2">55+</label>
+              <br>
+            </div>
+          </div>
+          
+          <div>
+            <span class="err-txt">Please check one option</span>
+          </div>
+
+        </div>
+
+        <!--Categories-->
+        <div class="input-holder checkbox">
+          <label for="checkbox" class="form_title">Select your areas of interest</label>
+          <br>
+          <div class="checkbox_container">
+            <div class="col-1">
+              <input type="checkbox" name="checkbox" id="check1" class="form-control" value="Battery Electric Vehicle (BEV)">
+              <label for="check1">Battery Electric Vehicle (BEV)</label>
+              <br>
+              <input type="checkbox" name="checkbox" id="check2" class="form-control" value="Hybrid Electric Vehicle (HEV)">
+              <label for="check2">Hybrid Electric Vehicle (HEV)</label>
+              <br>
+              <input type="checkbox" name="checkbox" id="check3" class="form-control" value="Plug-in Hybrid Electric Vehicle (PHEV)">
+              <label for="check2">Plug-in Hybrid Electric Vehicle (PHEV)</label>
+              <br>
+            </div>
+
+            <div class="col-2">
+              <input type="checkbox" name="checkbox" id="check4" class="form-control" value="Fuel Cell Electric Vehicle (FCEV)">
+              <label for="check2">Fuel Cell Electric Vehicle (FCEV)</label>
+              <br>
+              <input type="checkbox" name="checkbox" id="check5" class="form-control" value="Future Trends">
+              <label for="check2">Future Trends</label>
+              <br>
+            </div>
+          </div>
+
+          <div>
+            <span class="err-txt">Please check one option</span>
+          </div>
+        </div>
+
+      <!--Text Area-->
+      <div class="float-left">
+        <div class="input-holder">
+          <label for="messgae" class="form_title">Send us a message</label>
+          <textarea name="messgae" id="" cols="60" rows="3" placeholder="Enter your message here..."></textarea>
+        </div>
+
+        <!--Submit Button-->
+        <div class="input-holder">
+          <button style="display: block; margin-left: auto; margin-right: auto;"><input type="submit" value="Submit" class="btn-submit"></button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!--Back to top button-->
+  <div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" class="GTT">Top</button>
+  </div>
+  
+</div>
+</div>
+</div>
+
+
+<!-- Footer-->
+<footer class="footer">
+    <div class="contact">
+        <div id="contact_details">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href="tel:0487154084" target="_blank">0487154084</a></p>
+            </div>
+
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href = "ggmchardie@gmail.com" target="_blank">ggmchardie@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-globe"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href="https://goo.gl/maps/EExeTzQRTRvJozPv8" target="_blank">Carwoola</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class ="copyright">
+        <div>
+        <p>Copyright © 2023 Georgia McHardie</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+<!--Form Javascript-->
+<script src="javascript\form.js"></script>
+
+</html>

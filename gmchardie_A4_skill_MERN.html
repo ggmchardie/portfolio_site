@@ -1,0 +1,348 @@
+<!--Balsamiq Page-->
+<!--Stock photo of code. Description of experience with some select skills-->
+<!--Experience of each skill is displayed with a percentage of current level of experience-->
+<!--Georgia (Georgie) McHardie 09/04/2023-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Site title -->
+	<title>Georgie McHardie</title>
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="print" href="css/print.css" />
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b0b3e1c834.js" crossorigin="anonymous"></script>
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!--Javascript-->
+    <script src="javascript\nav.js"></script>
+    <script src="javascript\cards.js"></script>
+    <script src="javascript\backToTopButton.js"></script>
+
+    <!--CSS-->
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        .content aside section li {
+          color: white;
+          font-family: 'Work Sans', sans-serif;
+          color: white;
+          border-bottom: none;
+          font-family: 'Work Sans', sans-serif;
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+          padding-top: 4px;
+          margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>   
+
+<!--Navigation-->
+<header>
+    <div id="logo">
+      <a href="index.html"><img class="logo" src="images\animatedLogo.gif" alt="Logo" /></a>
+    </div>
+</header>
+  
+<nav id="mainnav" class="group">
+  <div id="menu">&#x2261; Menu</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gmchardie_A4_about.html">About</a></li>
+    <li><a href="gmchardie_A4_resume.html">Resume</a></li>
+    <li><a href="gmchardie_A4_web_skills.html">Webskills</a></li>
+    <li><a href="gmchardie_A4_projects.html">Projects</a></li>
+    <li><a href="gmchardie_A4_contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+    <div class="content">    
+
+        <!--Aside-->
+        <aside style="height: 1325px;">
+        <button onclick="history.back()">Go Back</button>
+        
+        <!--Photo-->
+          <div class="photo">
+            <img src="images\HotHotHoles\MERN_logo.png" class="photo" alt="MERN Logo"/>
+          </div>
+
+        <!--Description-->
+          <section>
+                    <p>
+                      <div class="skill_desc" style="padding-top: 0px;">                       
+                        <h3 class="skill_title">Frontend tech stack</h3>
+                        <ul>
+                            <li>React</li>
+                            <li>Redux + Redux Thunk</li>
+                            <li>Axios</li>
+                            <li>Bootstrap + React Bootstrap</li>
+                            <li>React DOM</li>
+                            <li>React photo gallery</li>
+                            <li>React Responsive Modal</li>
+                            <li>React Router DOM</li>
+                        </ul>
+                        <h3 class="skill_title" style="padding-top: 15%;">Backend tech stack</h3>
+                        <ul>
+                          <li>Node</li>
+                          <li>Forever</li>
+                          <li>Nodemon</li>
+                          <li>Mongoose</li>
+                          <li>Express</li>
+                        </ul>
+                      </div>
+                    </p>
+
+                <!--Github Link-->
+                <h3 class="title">Click below to view on Github</h3>
+                <div class="ans">
+                <a href="https://github.com/ggmchardie/hot_holes_frontend" target="_blank"><img src="images\Github_logo.png" alt="Github Logo" class="Github_logo"/></a>
+                
+                </div>
+          </section>
+        </aside>
+    
+        <!--Main-->
+        <div class="main" style="height: 1325px;">
+
+            <!--Headings-->
+            <div class="skill_heading">
+            <h1>Hot Hot Holes</h1>
+            <br>
+            <h2 class="skill_subtitle">MERN Stack & Javascript</h2>
+            </div>        
+            
+            <!--Photo Cards-->
+            <div class="cards">
+
+                <!--Card 1-->
+                <div class="card">
+                  <div class="card__image-holder">
+                    <img class="card__image" src="images\HotHotHoles\HHH_logo.png" alt="Hot Hot Holes Logo"  style="height: 250px;"/>
+                  </div>
+                  <div class="card-title">
+                    <a href="#" class="toggle-info btn">
+                      <span class="left"></span>
+                      <span class="right"></span>
+                    </a>
+                    <h2>
+                        Purpose
+                    </h2>
+                  </div>
+                  <div class="card-flap flap1">
+                    <div class="card-description">
+                      Hot Hot Holes online ordering app was built to give customers a more convenient 
+                      option and allow the business owners to view all order easily.
+                      The app displays the order options, takes in the order and displays it on an admin page in an index.
+                    </div>
+                    <div class="card-flap flap2">
+                      <div class="card-actions">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <!--Card 2-->
+                <div class="card">
+                  <div class="card__image-holder">
+                    <img class="card__image" src="images\HotHotHoles\Home.png" alt="Home Page" />
+                  </div>
+                  <div class="card-title">
+                    <a href="#" class="toggle-info btn">
+                      <span class="left"></span>
+                      <span class="right"></span>
+                    </a>
+                    <h2>
+                        Home Page
+                    </h2>
+                  </div>
+                  <div class="card-flap flap1">
+                    <div class="card-description">
+                      The home page welcomes users to the site and displays some relevant pictures from the company's instagram.
+                    </div>
+                    <div class="card-flap flap2">
+                      <div class="card-actions">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!--Card 3-->
+                <div class="card">
+                  <div class="card__image-holder">
+                    <img class="card__image" src="images\HotHotHoles\About.png" alt="About Page" />
+                  </div>
+                  <div class="card-title">
+                    <a href="#" class="toggle-info btn">
+                      <span class="left"></span>
+                      <span class="right"></span>
+                    </a>
+                    <h2>
+                        About Page
+                    </h2>
+                  </div>
+                  <div class="card-flap flap1">
+                    <div class="card-description">
+                      The about page provides users with a description of the company.
+                    </div>
+                    <div class="card-flap flap2">
+                      <div class="card-actions">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!--Card 4-->
+                <div class="card">
+                  <div class="card__image-holder">
+                    <img class="card__image" src="images\HotHotHoles\Order.png" alt="Order Page" />
+                  </div>
+                  <div class="card-title">
+                    <a href="#" class="toggle-info btn">
+                      <span class="left"></span>
+                      <span class="right"></span>
+                    </a>
+                    <h2>
+                        Order Page
+                    </h2>
+                  </div>
+                  <div class="card-flap flap1">
+                    <div class="card-description">
+                      The order page displays options to the user and allows them to sumbit their order.
+                    </div>
+                    <div class="card-flap flap2">
+                      <div class="card-actions">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!--Card 5-->
+                <div class="card">
+                  <div class="card__image-holder">
+                    <img class="card__image" src="images\HotHotHoles\Order_list.png" alt="Orders List" />
+                  </div>
+                  <div class="card-title">
+                    <a href="#" class="toggle-info btn">
+                      <span class="left"></span>
+                      <span class="right"></span>
+                    </a>
+                    <h2>
+                        Orders List
+                    </h2>
+                  </div>
+                  <div class="card-flap flap1">
+                    <div class="card-description">
+                      The orders list page displays all current orders to the user.
+                    </div>
+                    <div class="card-flap flap2">
+                      <div class="card-actions">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!--Card 6-->
+                <div class="card">
+                  <div class="card__image-holder">
+                    <img class="card__image" src="images\HotHotHoles\Contact.png" alt="Contact" />
+                  </div>
+                  <div class="card-title">
+                    <a href="#" class="toggle-info btn">
+                      <span class="left"></span>
+                      <span class="right"></span>
+                    </a>
+                    <h2>
+                        Contact Page
+                    </h2>
+                  </div>
+                  <div class="card-flap flap1">
+                    <div class="card-description">
+                      The contact page allows the user to contact the company via a form.
+                    </div>
+                    <div class="card-flap flap2">
+                      <div class="card-actions">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Back to top button-->
+              <div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top" class="GTT">Top</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+              
+              
+              
+              
+
+
+<!-- Footer-->
+<footer class="footer">
+    <div class="contact">
+        <div id="contact_details">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href="tel:0487154084" target="_blank">0487154084</a></p>
+            </div>
+
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href = "ggmchardie@gmail.com" target="_blank">ggmchardie@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-globe"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href="https://goo.gl/maps/EExeTzQRTRvJozPv8" target="_blank">Carwoola</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class ="copyright">
+        <div>
+        <p>Copyright © 2023 Georgia McHardie</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

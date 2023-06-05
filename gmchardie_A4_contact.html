@@ -1,0 +1,120 @@
+<!--Contact Page-->
+<!--Contact form that goes directly to my email-->
+<!--Georgia (Georgie) McHardie 09/04/2023-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- Site title -->
+	<title>Georgie McHardie</title>
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="print" href="css/print.css" />
+
+	<!--Font Awesome-->
+	<script src="https://kit.fontawesome.com/b0b3e1c834.js" crossorigin="anonymous"></script>
+
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+	<!--Javascript-->
+	<script src="javascript\nav.js"></script>
+
+</head>
+
+<body>   
+<!--Navigation-->
+<header>
+    <div id="logo">
+      <a href="index.html"><img class="logo" src="images\animatedLogo.gif" alt="Logo" /></a>
+    </div>
+</header>
+  
+<nav id="mainnav" class="group">
+  <div id="menu">&#x2261; Menu</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gmchardie_A4_about.html">About</a></li>
+    <li><a href="gmchardie_A4_resume.html">Resume</a></li>
+    <li><a href="gmchardie_A4_web_skills.html">Webskills</a></li>
+    <li><a href="gmchardie_A4_projects.html">Projects</a></li>
+    <li><a href="gmchardie_A4_contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+	<div id="heading">
+		<h1 style="margin-top: 5%;">Contact Me</h1>
+	</div>
+
+	<div style="height: 650px;">
+		<!--Contact Form-->
+		<div class="contact_form">
+			<form action="https://formspree.io/f/xwkjwpqn" method="POST">
+				
+				<label for="name">Name</label><br>
+				<input type="text" name="name" id="name"><br>
+				
+				<label for="email">Email</label><br>
+				<input type="text" name="email" id="email"><br>
+				
+				<label for="phone">Phone (optional)</label><br>
+				<input type="text" name="phone" id="phone"><br>
+				
+				<label for="message">Message</label><br>
+				<textarea name="message" id="message" style="height:150px"></textarea><br>
+
+				
+				<button class="contact_submit" style="display: block; margin-left: auto; margin-right: auto;"><input type="submit" value="Submit" class="contact_submit"/> </button>
+			</form>
+		</div>
+	</div>
+
+<!-- Footer-->
+<div class="footer_contact">
+    <div class="contact_footer">
+        <div id="contact_details_footer">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact_details_footer">
+                <p><a href="tel:0487154084" target="_blank">0487154084</a></p>
+            </div>
+
+        </div>
+
+        <div id="contact_details_footer">
+            <div>
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="contact_details_footer">
+                <p><a href = "ggmchardie@gmail.com" target="_blank">ggmchardie@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-globe"></i>
+            </div>
+            <div class="contact_details_footer">
+                <p><a href="https://goo.gl/maps/EExeTzQRTRvJozPv8" target="_blank">Carwoola</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="copyright">
+        <div>
+        <p>Copyright © 2023 Georgia McHardie</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

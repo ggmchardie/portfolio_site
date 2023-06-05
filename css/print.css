@@ -1,0 +1,255 @@
+/*All Pages*/
+header, footer, nav, form, button {
+    display: none;
+}
+
+* {
+    background: none !important;
+}
+
+h1 {
+    break-before: always;
+    color: black !important;
+}
+
+h2 {
+    color: black !important;
+}
+
+h3 {
+    color: black !important;
+}
+
+h5 {
+    color: black !important;
+}
+
+ @page {
+    margin: 2cm;
+}
+
+body {
+    color: black !important;
+}
+
+/*Home Page*/
+
+.intro {
+    text-align: center;
+    display:inline;
+}
+
+.home_button {
+    display: none;
+}
+
+.home_box {
+    text-align: center !important;
+    position: absolute !important;
+}
+
+/*About Page*/
+.about_row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+#blurb {
+    color: black;
+    width: 80%;
+    padding: 0;
+    margin-top: 7% !important;
+}
+
+#georgie_image {
+    width: 30%;
+    border-radius: 48%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 1%;
+}
+
+.reference {
+    height: 300px !important;
+    margin-top: 5%;
+}
+
+.box {
+    width: 80% !important;
+
+}
+
+.box:before {
+    border-top: none !important;
+    border-left: none !important;
+}
+
+.box:after {
+    border-bottom: none !important;
+    border-right: none !important;
+}
+
+/*Resume Page*/
+.ans {
+    color: black !important;
+}
+
+.content aside section li {
+    border-bottom: 1px solid black !important;
+}
+
+.links {
+    display: none;
+}
+
+table {
+    border: solid;
+    width: 527px !important;
+  }
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    font-family: 'Forum';
+  }
+  tr td {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    border: solid;
+  }
+  th {
+    text-align: left;
+  }
+  thead th {
+    border: solid;
+  }
+  tbody tr:hover {
+    display: none;
+  }
+  tbody td {
+    position: relative;
+    color: black !important;
+  }
+
+  tbody td:hover:before {
+    display: none;
+  }
+
+.hobbies {
+    margin-top: -3% !important;
+}
+
+.hobbies ul, .hobbies li {
+    list-style: inside !important;
+}
+
+.hobbies li {
+    color: black !important;
+    display: list-item !important;
+    text-align: left !important;
+    margin-right: 50px !important;
+    font-weight: 600 !important;
+    top: 5% !important;
+    padding: 5px !important;
+}
+
+.hobbies i {
+    display: none !important;
+}
+
+/*Web Skills Page*/
+.content aside .photo {
+    display: none;
+}
+
+.content aside {
+    text-align: center;
+    float: none !important;
+    width: 100% !important;
+    height: auto !important;
+    position: relative;
+}
+
+.content aside section .ans {
+    padding-bottom: 2% !important;
+    padding-top: 2% !important;
+}
+
+.content aside section h5.subtitle {
+    padding-bottom: 0 !important;
+}
+
+.content aside section li {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.main {
+    text-align: center;
+    float: none !important;
+    width: 100% !important;
+    height: auto !important;
+    position: relative;
+}
+
+.outer-Container {
+    width: 50%;
+    display: inline-flex !important;
+    margin-top: 1% !important;
+}
+
+.iner-wrapper {
+    padding: 0 !important;
+}
+
+.progress-bar {
+    display: none;
+}
+
+.info {
+    margin: 5%;
+}
+
+.skill-bar {
+    margin: -3%
+}
+
+.skill-bar .info span {
+    color: black !important;
+}
+
+/*Contact Page*/
+.contact_form {
+    display: none !important;
+}
+
+.footer_contact{
+    text-align: center;
+    display: list-item;
+    margin-top: -50%;
+    margin-right: 0 !important;
+}
+
+.contact_footer {
+    display: inline;
+    margin-right: 0 !important;
+}
+
+#contact_details_footer {
+    margin: 0 !important;
+    padding: 3% !important;
+}
+
+.copyright_contact {
+    margin-top: 3% !important;
+    padding-bottom: 1%;
+}
+
+
+

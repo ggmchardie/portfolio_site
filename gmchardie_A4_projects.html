@@ -1,0 +1,292 @@
+<!--Balsamiq Page-->
+<!--Stock photo of code. Description of experience with some select skills-->
+<!--Experience of each skill is displayed with a percentage of current level of experience-->
+<!--Georgia (Georgie) McHardie 09/04/2023-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Site title -->
+	<title>Georgie McHardie</title>
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="print" href="css/print.css" />
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b0b3e1c834.js" crossorigin="anonymous"></script>
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!--Javascript-->
+    <script src="javascript\nav.js"></script>
+    <script src="javascript\cards.js"></script>
+
+    <!--CSS-->
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+    </style>
+
+</head>
+
+<body>   
+
+<!--Navigation-->
+<header>
+    <div id="logo">
+      <a href="index.html"><img class="logo" src="images\animatedLogo.gif" alt="Logo" /></a>
+    </div>
+</header>
+  
+<nav id="mainnav" class="group">
+  <div id="menu">&#x2261; Menu</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gmchardie_A4_about.html">About</a></li>
+    <li><a href="gmchardie_A4_resume.html">Resume</a></li>
+    <li><a href="gmchardie_A4_web_skills.html">Webskills</a></li>
+    <li><a href="gmchardie_A4_projects.html">Projects</a></li>
+    <li><a href="gmchardie_A4_contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+    <div class="content">    
+
+        <!--Aside-->
+    
+        <aside style="height: 1322px;">
+        
+        <!--Photo-->
+          <div class="photo">
+            <img src="images\design_photo.jpg" class="photo" alt="code laptop"/>
+          </div>
+
+        <!--Description-->
+          <section>
+              <h3 class="skill_title">Description</h3>
+                    <p>
+                    <div class="skill_desc">
+                        I worked on numerous projects while earning my diploma and bachelor's degree.
+                        Click on any of the images to learn more about my favourite projects.
+                        All of my source code for each project is available on my Github profile, which is linked below.
+                    </div>
+                    </p>
+
+                <!--Github Link-->
+                <h3 class="title">Click below to view all my projects on Github</h3>
+                <div class="ans">
+                <a href="https://github.com/ggmchardie" target="_blank"><img src="images\Github_logo.png" alt="Github Logo" class="Github_logo"/></a>
+                </div>
+          </section>
+        </aside>
+    
+        <!--Main-->
+        <div class="main" style="height: 1322px;">
+
+            <!--Headings-->
+            <div class="skill_heading">
+            <h1 style="padding-bottom: 4%;">Projects</h1>
+            </div>        
+            
+            <!--Photo Cards-->
+            <div class="cards">
+
+                <!--Card 1-->
+                <div class="card">
+                    <div class="card__image-holder">
+                      <img class="card__image" src="images\Balsamiq\Home.png" alt="Balsamiq" />
+                    </div>
+                    <div class="card-title">
+                      <a href="#" class="toggle-info btn">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                      </a>
+                      <h2>
+                          Symposium Planner
+                          <small>Balsamiq Design</small>
+                      </h2>
+                    </div>
+                    <div class="card-flap flap1">
+                      <div class="card-description">
+                        An online booking system for a symposium/conference using Balsamiq design software
+                      </div>
+                      <div class="card-flap flap2">
+                        <div class="card-actions">
+                        <button class="btn" onclick="window.location.href='gmchardie_A4_skill_balsamiq.html';" style="display: block; margin-left: auto; margin-right: auto;">
+                            Read more
+                        </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+                <!--Card 2-->
+                <div class="card">
+                    <div class="card__image-holder">
+                      <img class="card__image" src="images\Karuna\Logo.png" alt="Karuna Logo"/>
+                    </div>
+                    <div class="card-title">
+                      <a href="#" class="toggle-info btn">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                      </a>
+                      <h2>
+                          Karuna
+                          <small>Android app built in Java</small>
+                      </h2>
+                    </div>
+                    <div class="card-flap flap1">
+                      <div class="card-description">
+                        An Android app that uses facial recognition to connect individuals following a natural disaster.
+                    </div>
+                      <div class="card-flap flap2">
+                        <div class="card-actions">
+                            <button class="btn" onclick="window.location.href='gmchardie_A4_skill_java.html';" style="display: block; margin-left: auto; margin-right: auto;">
+                                Read more
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                <!--Card 3-->
+                <div class="card">
+                    <div class="card__image-holder">
+                      <img class="card__image" src="images\HotHotHoles\HHH_logo.png" alt="Hot Hot Holes" style="height: 250px;"/>
+                    </div>
+                    <div class="card-title">
+                      <a href="#" class="toggle-info btn">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                      </a>
+                      <h2>
+                          Hot Hot Holes
+                          <small>Web App built using MERN Stack</small>
+                      </h2>
+                    </div>
+                    <div class="card-flap flap1">
+                      <div class="card-description">
+                        An online ordering app for a local hot doughnut business.
+                      </div>
+                      <div class="card-flap flap2">
+                        <div class="card-actions">
+                            <button class="btn" onclick="window.location.href='gmchardie_A4_skill_MERN.html';" style="display: block; margin-left: auto; margin-right: auto;">
+                                Read more
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+                <!--Card 4-->
+                <div class="card">
+                    <div class="card__image-holder">
+                      <img class="card__image" src="images\LibU\Libu_logo.png" alt="LibU" />
+                    </div>
+                    <div class="card-title">
+                      <a href="#" class="toggle-info btn">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                      </a>
+                      <h2>
+                          LibU
+                          <small>Website built using Ruby on Rails</small>
+                      </h2>
+                    </div>
+                    <div class="card-flap flap1">
+                      <div class="card-description">
+                        A site for academics and students to share and download academic materials for free.
+                      </div>
+                      <div class="card-flap flap2">
+                        <div class="card-actions">
+                            <button class="btn" onclick="window.location.href='gmchardie_A4_skill_rails.html';" style="display: block; margin-left: auto; margin-right: auto;">
+                                Read more
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+                <!--Card 5-->
+                <div class="card">
+                    <div class="card__image-holder">
+                      <img class="card__image" src="images\ZephyrMotors_logo.jpg" alt="Zephyr Motors Logo" />
+                    </div>
+                    <div class="card-title">
+                      <a href="#" class="toggle-info btn">
+                        <span class="left"></span>
+                        <span class="right"></span>
+                      </a>
+                      <h2>
+                        Zephyr Motors e-newsletter form
+                      </h2>
+                    </div>
+                    <div class="card-flap flap1">
+                      <div class="card-description">
+                        A form for users to sign up to an e-newsletter.
+                      </div>
+                      <div class="card-flap flap2">
+                        <div class="card-actions">
+                            <button class="btn" onclick="window.location.href='gmchardie_A4_skill_javascript.html';" style="display: block; margin-left: auto; margin-right: auto;">
+                                Read more
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+          </div>
+
+<!-- Footer-->
+<footer class="footer">
+    <div class="contact">
+        <div id="contact_details">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href="tel:0487154084" target="_blank">0487154084</a></p>
+            </div>
+
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href = "ggmchardie@gmail.com" target="_blank">ggmchardie@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div id="contact_details">
+            <div>
+                <i class="fa fa-globe"></i>
+            </div>
+            <div class="contact_details">
+                <p><a href="https://goo.gl/maps/EExeTzQRTRvJozPv8" target="_blank">Carwoola</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class ="copyright">
+        <div>
+        <p>Copyright © 2023 Georgia McHardie</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
