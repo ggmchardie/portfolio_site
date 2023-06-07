@@ -1,7 +1,7 @@
-<!--Balsamiq Page-->
-<!--Stock photo of code. Description of experience with some select skills-->
-<!--Experience of each skill is displayed with a percentage of current level of experience-->
-<!--Georgia (Georgie) McHardie 09/04/2023-->
+<!--Javascript Form Page-->
+<!--Description of company with logo-->
+<!--Sign up form with javascript validation-->
+<!--Georgia (Georgie) McHardie 07/04/2023-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,7 +53,7 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="gmchardie_A4_about.html">About</a></li>
     <li><a href="gmchardie_A4_resume.html">Resume</a></li>
-    <li><a href="gmchardie_A4_webskills.html">Webskills</a></li>
+    <li><a href="gmchardie_A4_webskills.html">Web skills</a></li>
     <li><a href="gmchardie_A4_projects.html">Projects</a></li>
     <li><a href="gmchardie_A4_contact.html">Contact</a></li>
   </ul>
@@ -116,33 +116,33 @@
 
   <!--Form-->
   <div class ="form_container">
-    <form action="https://formspree.io/f/xgebjkna" class="form" id="form" method="POST">
+    <form action="http://csusap.csu.edu.au/cgi-bin/echo_form" class="form" id="form" method="POST">
       <div class="float-right">
         <div class="input-holder">
 
           <!--First Name-->
-          <label for="fname" class="form_title">First Name</label>
+          <label for="fname" class="form_title">First Name *</label>
           <input type="text" name="fname" placeholder="Enter your first name here..." class="form-control" data-name="name" maxlength="60">
           <span class="err-txt">Please enter your first name.</span>
         </div>
 
         <!--Last Name-->
         <div class="input-holder">
-          <label for="sname" class="form_title">Last Name</label>
+          <label for="sname" class="form_title">Last Name *</label>
           <input type="text" name="sname" placeholder="Enter your last name here..." class="form-control" data-name="name" maxlength="60">
           <span class="err-txt">Please enter your last name.</span>
         </div>
 
         <!--Email-->
         <div class="input-holder">
-          <label for="email" class="form_title">Email</label>
+          <label for="email" class="form_title">Email *</label>
           <input type="email" name="email" placeholder="Enter your email here..." class="form-control" maxlength="60">
           <span class="err-txt">Please enter your email.</span>
         </div>
 
         <!--Ages-->
         <div class="input-holder radiocheck">
-          <label for="radio" class="form_title">Age</label>
+          <label for="radio" class="form_title">Age *</label>
           <br>
           <div class="checkbox_container">
             <div class="col-1">
@@ -174,7 +174,7 @@
 
         <!--Categories-->
         <div class="input-holder checkbox">
-          <label for="checkbox" class="form_title">Select your areas of interest</label>
+          <label for="checkbox" class="form_title">Select your areas of interest *</label>
           <br>
           <div class="checkbox_container">
             <div class="col-1">
@@ -208,7 +208,14 @@
       <div class="float-left">
         <div class="input-holder">
           <label for="messgae" class="form_title">Send us a message</label>
-          <textarea name="messgae" id="" cols="60" rows="3" placeholder="Enter your message here..."></textarea>
+          <textarea name="message" id="" cols="60" rows="3" placeholder="Enter your message here..."></textarea>
+        </div>
+
+        <div>
+          <p>
+            * - required fields<br>
+            <input type="reset">
+          </p>
         </div>
 
         <!--Submit Button-->
@@ -218,6 +225,7 @@
       </div>
     </form>
   </div>
+
 
   <!--Back to top button-->
   <div>
